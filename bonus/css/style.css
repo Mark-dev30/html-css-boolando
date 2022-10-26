@@ -173,6 +173,10 @@
     opacity: 1;
 }
 
+.container_symbols:hover{
+    color:red
+}
+
 
 /* footer */
 
