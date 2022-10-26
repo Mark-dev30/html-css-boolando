@@ -20,7 +20,7 @@
 
 .background_header{
     background-color: #ff6900;
-    height: 100px;
+    height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -75,6 +75,7 @@
 
 .content_header li{
     margin-right: 15px;
+    
 }
 
 
@@ -92,7 +93,7 @@
     margin-top: 5px;
 }
 .icon{
-    margin-left: 115px;
+    margin-left: 170px;
 }
 
 /* main structure */
@@ -168,6 +169,8 @@
 
 
 
+
+
 /* footer */
 
 .container_footer{
@@ -178,9 +181,28 @@
 .row_footer{
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
-.column_footer{
+.column_footer_left{
     height: 50px;
-    width: 50%;
+    width: 70%;
+}
+.column_footer_right{
+    height: 50px;
+    width: 30%;
+    padding-left: 110px;
+}
+
+
+.row_footer ul{
+    list-style: none;  
+    display: flex;
+}
+
+.row_footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 5px;
 }
