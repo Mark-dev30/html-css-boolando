@@ -118,14 +118,50 @@
 .content_ma p, .content_ma span{
     font-size: 12px;
 }
+
+.color_white{
+    color: white;
+}
+
 .color_red{
     color: red;
 }
 
+.content_img{
+    position: relative;
+}
 
 .content_img img{ 
     width: 100%;
 }
+
+.container_symbols{
+    font-size: 22px;
+    position: absolute;
+    background-color:white;
+    padding: 1px 8px;
+    top: 5px;
+    right: 0;
+}
+.container_details{
+    
+    position: absolute;
+    bottom: 20px;
+}
+.content_sale{
+    display: inline-block;
+    font-size: 25px;
+    background-color: red;
+    padding: 4px 10px;  
+}
+.content_eco{
+    display: inline-block;
+    font-size: 25px;
+    background-color: green;
+    padding: 4px 10px;  
+}
+
+
 
 
 
