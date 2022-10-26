@@ -115,14 +115,19 @@
 }
 
 /* main elements  */
-.content_ma{
-    height: 400px;
+.content_ma p, .content_ma span{
+    font-size: 12px;
 }
+.color_red{
+    color: red;
+}
+
 
 .content_img img{ 
     width: 100%;
-
 }
+
+
 
 
 
