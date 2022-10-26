@@ -162,6 +162,16 @@
     padding: 4px 10px;  
 }
 
+.overlay{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.content_img:hover .overlay{
+    opacity: 1;
+}
 
 
 
