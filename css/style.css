@@ -95,7 +95,7 @@
     margin-left: 115px;
 }
 
-/* main */
+/* main structure */
 
 .container_ma{
     width: 75%;
@@ -110,10 +110,22 @@
 }
 
 .column_ma{
-    height: 300px;
     width: 33%;
     margin: 10px 0;
 }
+
+/* main elements  */
+.content_ma{
+    height: 400px;
+}
+
+.content_img img{ 
+    width: 100%;
+
+}
+
+
+
 
 /* footer */
 
