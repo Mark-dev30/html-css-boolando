@@ -24,6 +24,11 @@
     width: 100%;
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
 }
 
@@ -42,6 +47,9 @@
 }
 
 /* header */
+.principal_cont_ma{
+    padding: 80px 0;
+}
 
 .container_header{
     width: 75%;
@@ -174,7 +182,7 @@
 }
 
 .container_symbols:hover{
-    color:red
+    color: red;
 }
 
 
@@ -211,5 +219,5 @@
     text-decoration: none;
     color: white;
     font-size: 15px;
-    padding-left: 5px;
+    padding-right: 8px;
 }
